@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(0, "");
+    
+    long long sum1 = 1 + 2;
+    long long sum2 = 1 + 2 + 3;
+    long long sum3 = 1 + 2 + 3 + 4;
+    long long sum4 = 1 + 2 + 3 + 4 + 5;
+    long long sum5 = 1 + 2 + 3 + 4 + 5 + 6;
+    long long sum6 = 1 + 2 + 3 + 4 + 5 + 6 + 7;
+    long long sum7 = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8;
+    long long sum8 = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9;
+    long long sum9 = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10;
+
+    long long result = sum1 * sum2 * sum3 * sum4 * sum5 * sum6 * sum7 * sum8 * sum9;
+
+    cout << "Результат вычисления: " << result << endl;
+
+    return 0;
