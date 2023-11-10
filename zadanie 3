@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(0, "");
+    cout << "счетчик вклада в сберкассу под 3%\n";
+    int n1;
+    cout << "введите сумму: ";
+    cin >> n1;
+    int n2;
+    cout << "введите на сколько лет открываете вклад: ";
+    cin >> n2;
+
+    cout << "вы получите = " << n1 * (1 + (n2 * 0.03));
+
+    return 0;
+
+}
